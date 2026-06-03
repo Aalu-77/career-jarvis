@@ -1,0 +1,21 @@
+# Secrets — NEVER commit
+.env
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Project data
+data/seen_jobs.db
+data/digests/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
